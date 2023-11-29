@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for integer in range(99):
-    print("{}" .format(hex(integer)))
+    print("{} = 0x{:02x}" .format(integer, integer))
