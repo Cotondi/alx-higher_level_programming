@@ -7,6 +7,6 @@ if __name__ == "__main__":
     elif tally == 1:
         print("1 argument")
     else:
-        print("{} arguments".format(tally))
+        print("{} arguments:".format(tally))
         for i in range(tally):
             print("{} : {}".format(i + 1, sys.argv[i + 1]))
